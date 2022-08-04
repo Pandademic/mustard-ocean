@@ -1,18 +1,20 @@
 <title>mustard: homepage</title>
 <h1>THE MUSTARD WEBSITE</h1>
 
-<h3>Check out some stats about mustard:</h3>
 
-<ul>
-	<li>
-		<a href="ocean-atlantic">How many mustard packets would it take to fill the atlantic ocean?</a>
-	</li>
-</ul>
+<a href="ocean-atlantic">How many mustard packets would it take to fill the atlantic ocean?</a>
 
+<p>more to come 😁</p>
+
+<h1>LINKS</h1>
+<a href="about">about</a>
+<br>
+<br>
+<a href="copyright">copyright</a>
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 	* {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Mouse Memoirs', sans-serif;
 	}
 	h1 {
 		font-size: 50px;

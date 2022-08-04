@@ -2,23 +2,27 @@
 	import Fire from '../lib/Fire.svelte';
 </script>
 <title>mustard: the atlantic ocean</title>
-<h1 class="slide-left">
+<h2 class="slide-left">
 	How many packets of Djoin mustard would it take to fill the atlantic ocean?
-</h1>
+</h2>
 <p>(This page is animated and things will slide in)</p>
 <br />
 <br />
 <br />
 <Fire text="That's a burning question" moveUp="true"/>
+<h1 class="slide-left">1.7984133e22 packets, that's how many.</h1>
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 	:global(body) {
 		background-color: #ffdb58;
 		color: white;
 		text-align: center;
 	}
+	h2 {
+		font-size: 35px;
+	}
 	h1 {
-		font-size: 25px;
+		font-size: 90px;
 	}
 	.slide-left{
 		animation: moveToRight 1s ease-in-out;
@@ -31,8 +35,8 @@
             100% {
                 transform: translateX(0px);
             }
-    }
-	#answer{
-		font-family: 'Montserrat', sans-serif;
+	}
+	*{
+		font-family: 'Mouse Memoirs', sans-serif;
 	}
 </style>
