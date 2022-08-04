@@ -1,17 +1,19 @@
 <script>
-    export let message;
-    export let status;
+	export let message;
+	export let status;
 </script>
+
 <h1>{status}: {message}</h1>
 <title>mustard: {message}</title>
+
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
-    :global(body) {
-        background-color: #ffdb58;
-        color: white;
-        text-align: center;
-    }
-    * {
-        font-family: 'Mouse Memoirs', sans-serif;
-    }
+	@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+	:global(body) {
+		background-color: #ffdb58;
+		color: white;
+		text-align: center;
+	}
+	* {
+		font-family: 'Mouse Memoirs', sans-serif;
+	}
 </style>
