@@ -12,13 +12,16 @@
 <script>
 	import ErrorScreen from '../lib/screens/ErrorScreen.svelte';
 	import NotFoundScreen from '../lib/screens/NotFoundScreen.svelte';
-
+        import TeapotScreen from '../lib/screens/Teapot.svelte'
+ 
 	export let message;
 	export let status;
 </script>
 
 {#if status == 404}
-	<NotFoundScreen />
+    <NotFoundScreen />
+{:elseif status == 418}
+    <TeapotScreen />
 {:else}
 	<ErrorScreen {message} {status} />
 {/if}
