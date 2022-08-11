@@ -9,7 +9,7 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 	:global(body) {
-		background-color: #ffdb58;
+		background-color: #ffcb15;
 		color: white;
 		text-align: center;
 	}

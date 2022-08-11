@@ -20,7 +20,7 @@
 		font-size: 50px;
 	}
 	:global(body) {
-		background-color: #ffdb58;
+		background-color: #ffcb15;
 		height: 100%;
 		color: white;
 		text-align: center;
