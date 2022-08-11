@@ -31,4 +31,7 @@
 		animation: moveUp 1s ease-in-out;
 		animation-delay: 10ms;
 	}
+  * {
+    letter-spacing: 3px;
+  }
 </style>

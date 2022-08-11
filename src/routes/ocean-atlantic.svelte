@@ -11,7 +11,7 @@
 <br />
 <br />
 <Fire text="That's a burning question" moveUp="true" />
-<h1 class="slide-left">1.7984133e22 packets, that's how many.</h1>
+<h1 class="slide-left" >1.7984133e22 packets, that's how many.</h1>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
@@ -39,6 +39,7 @@
 		}
 	}
 	* {
-		font-family: 'Mouse Memoirs', sans-serif;
-	}
+		font-family: 'Mouse Memoirs', sans-serif;	
+    letter-spacing: 3px;
+  }
 </style>

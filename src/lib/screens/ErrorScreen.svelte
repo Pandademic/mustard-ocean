@@ -15,5 +15,7 @@
 	}
 	* {
 		font-family: 'Mouse Memoirs', sans-serif;
+		letter-spacing: 3px;
+		font-size: 100px;
 	}
 </style>

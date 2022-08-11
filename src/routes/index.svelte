@@ -24,5 +24,7 @@
 		height: 100%;
 		color: white;
 		text-align: center;
+		letter-spacing: 3px;
+
 	}
 </style>
